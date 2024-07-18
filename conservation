@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Check if argument is provided
+if [ $# -ne 1 ]; then
+    echo "Usage: $0 [on|off]"
+    exit 1
+fi
+
+# Check the argument value
+if [ "$1" == "on" ]; then
+    sudo tlp setcharge 0 1 BAT1
+    echo "Conservation enabled."
+elif [ "$1" == "off" ]; then
+    sudo tlp setcharge 0 0 BAT1
+    echo "Conservation disabled."
+else
+    echo "Invalid argument. Please use 'on' or 'off'."
+    exit 1
+fi
+
