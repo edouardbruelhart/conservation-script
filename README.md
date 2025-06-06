@@ -3,4 +3,22 @@ A little script that permits to activate or deactivate conservation mode on a le
 
 ## Set-up
 
-Add the script in a folder inside your PATH (for example /usr/local/bin/). You cant then activate or deactivate the conservation mode by opening a terminal and typing "conservation on" (to activate) or "conservation off" (to deactivate).
+- Add the script in a folder inside your PATH (for example /usr/local/bin/)
+- Make it executable:
+```bash
+chmod +x 
+```
+
+## How it works
+
+Activate conservation mode:
+
+```bash
+conservation on
+```
+
+Deactivate conservation mode:
+
+```bash
+conservation off
+```
