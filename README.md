@@ -6,7 +6,7 @@ A little script that permits to activate or deactivate conservation mode on a le
 - Add the script in a folder inside your PATH (for example /usr/local/bin/)
 - Make it executable:
 ```bash
-chmod +x 
+chmod +x conservation
 ```
 
 ## How it works
